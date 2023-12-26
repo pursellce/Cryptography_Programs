@@ -4,7 +4,8 @@ Date: 12/8/22
 Description: Program to encrypt a user provided plaintext file with a 16 character user provided key using a 
 simplified version of AES. While encrypting the plain text, the program writes the output following each step 
 of encryption to both the screen and a user specified output file including the final ciphertext produced by 
-the encryption process.*/
+the encryption process.
+this is just an exmple change*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -43,6 +44,8 @@ void reverse(string &text, int start, int end){
         end--;
     }
 }
+
+
 //Function to perform a circular left shift of a given shift value on a string by first reversing the whole string,
 //then reversing the shift value # of charaters at then end of the string, and finally reversing the remaining characters.
 void shiftRow(string &row, int shiftVal){
